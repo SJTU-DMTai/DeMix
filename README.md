@@ -19,7 +19,7 @@ pip install scikit-learn numpy pandas ucimlrepo tqdm matplotlib
 4. The dataset used for DeMix will be automatically downloaded and saved in the `demix_files/data/` directory.
 
 ## Running DeMix
-# The script automatically inject errors (with a clean ratio of `alpha`) to the dataset, perform data debugging and repair with DeMix, and evaluate the trained model performance after repair.
+The script automatically inject errors (with a clean ratio of `alpha`) to the dataset, perform data debugging and repair with DeMix, and evaluate the trained model performance after repair.
 ```bash
 python scripts/repair_data.py --save_dir demix_files --data_name adult --model_name mlp1 --alpha 0.5
 ```
